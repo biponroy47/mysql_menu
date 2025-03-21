@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-clip: text;
+  display: grid;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+thead th {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.deleteButton,
+.editPriceButton,
+.editCalButton,
+#sortButton,
+#orderButton,
+#insertButton,
+#showOrdersButton,
+#newDriversButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.deleteButton,
+.editPriceButton,
+.editCalButton,
+#sortButton,
+#orderButton {
+  font-size: 16px;
+}
+
+#insertButton,
+#showOrdersButton,
+#newDriversButton {
+  font-size: 20px;
+}
+
+.deleteButton:hover,
+.editPriceButton:hover,
+.editCalButton:hover,
+#sortButton:hover,
+#orderButton:hover,
+#insertButton:hover,
+#showOrdersButton:hover,
+#newDriversButton:hover {
+  background-color: #0056b3;
+}
